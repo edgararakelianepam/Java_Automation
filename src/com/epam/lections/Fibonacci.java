@@ -1,7 +1,7 @@
 package com.epam.lections;
 
 public class Fibonacci {
-        static void Fibonacci(int number)
+        static void fibonacciNumbers(int number)
         {
             int num1 = 0, num2 = 1;
 
@@ -17,10 +17,8 @@ public class Fibonacci {
         }
         public static void main(String args[])
         {
-            // Given Number N
             int N = 12;
 
-            // Function Call
-            Fibonacci(N);
+            fibonacciNumbers(N);
         }
     }
