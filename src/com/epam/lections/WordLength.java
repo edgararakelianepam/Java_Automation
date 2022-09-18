@@ -3,7 +3,7 @@ package com.epam.lections;
 public class WordLength {
     public static void main(String[] args) {
         String word = new String();
-        word = "";
+        word = " iiiii    iii ";
         if (word.length() == 0) {
             System.out.println(0);
         } else {
