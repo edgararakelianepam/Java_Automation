@@ -7,6 +7,7 @@ import base.Cars;
         super(years, model, power, color);
     }
 
+<<<<<<< HEAD
         @Override
         public void accelerationUpTo100() {
             System.out.println(getModel() + " accelerates to 100 in 10 sec.");
@@ -14,6 +15,9 @@ import base.Cars;
         }
 
         public Ford(){
+=======
+    public Ford(){
+>>>>>>> origin/master
 
     }
 

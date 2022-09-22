@@ -8,12 +8,15 @@ public class Toyota extends Cars {
 
     }
 
+<<<<<<< HEAD
     @Override
     public void accelerationUpTo100() {
         System.out.println(getModel() + " accelerates to 100 in 8 sec.");
 
     }
 
+=======
+>>>>>>> origin/master
     public Toyota(){
 
     }

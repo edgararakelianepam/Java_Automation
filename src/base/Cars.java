@@ -6,6 +6,7 @@ public abstract class Cars implements TyrePressureControl {
     private int power;
     private String color;
 
+<<<<<<< HEAD
     public class BodyType { //inner class
         private String bodytype;
 
@@ -32,6 +33,8 @@ public abstract class Cars implements TyrePressureControl {
     public abstract void accelerationUpTo100(); //anonymous
 
 
+=======
+>>>>>>> origin/master
     public int getYears() {
         return years;
     }
@@ -80,7 +83,11 @@ public abstract class Cars implements TyrePressureControl {
         }
     }
 
+<<<<<<< HEAD
     public Cars() {
+=======
+    public Cars(){
+>>>>>>> origin/master
 
     }
 
@@ -92,22 +99,37 @@ public abstract class Cars implements TyrePressureControl {
         this.color = color;
     }
 
+<<<<<<< HEAD
 
     public static final void carsFeatures() {
         System.out.println("Cars have auto-features");
     }
 
     public void autoFeatures() {
+=======
+    public static final void carsFeatures(){
+        System.out.println("Cars have auto-features");
+    }
+
+    public void autoFeatures(){
+>>>>>>> origin/master
     }
 
     public abstract void fuelType();
 
     @Override
     public void tyrePressureInfo() {
+<<<<<<< HEAD
         if (tyre_pressure < 2) {
             System.out.println("Attention! Your " + getModel() + " need to check tyre pressure");
         } else {
             System.out.println(getModel() + " tyre pressure is OK");
+=======
+        if (tyre_pressure<2){
+            System.out.println("Attention! Your " + getModel() + " need to check tyre pressure");
+        } else {
+            System.out.println(getModel() + " tyre pressure is OK");;
+>>>>>>> origin/master
         }
     }
 }

@@ -5,6 +5,7 @@ import base.Cars;
 public class Mercedes extends Cars {
     public Mercedes(int years, String model, int power, String color) {
         super(years, model, power, color);
+<<<<<<< HEAD
     }
 
     @Override
@@ -13,6 +14,11 @@ public class Mercedes extends Cars {
     }
 
 
+=======
+
+    }
+
+>>>>>>> origin/master
     public Mercedes(){
 
     }
